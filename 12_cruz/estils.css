@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-color: lightblue;
+}
+
+.contenedor{
+  width: 900px;
+  height: 900px;
+  background-color:#1BCBE3;
+  position: fixed;
+  left:400px;
+  overflow: hidden;
+}
+
+#suelo{
+  width: 1500px;
+  height: 350px;
+  background-color: #0DB21C;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+.container{
+  width:860px;
+  height:720px;
+  margin:0 auto;
+  position:relative;
+  z-index: 1;
+}
+.casa{
+  width:350px;
+  height:280px;
+  background-color: lightyellow ;
+  position:absolute;
+  bottom:200px;
+  left:20%;
+}
+.tejado{
+   width:270px;
+  height:170px;
+  border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+ border-bottom: 100px solid maroon;
+  position:absolute;
+  bottom:470px;
+  left:18%;
+}
+.ventana1{
+  width:80px;
+  height:70px;
+  background-color:whitesmoke;
+  position:absolute;
+  bottom:170px;
+  left:10%;
+}
+.barrote1{
+  width:80px;
+  height:10px;
+  background-color:silver;
+  position:absolute;
+  bottom:195px;
+  left:10%;
+}
+
+.barrote3{
+  width:70px;
+  height:10px;
+  background-color:silver;
+  position:absolute;
+  bottom:199.5px;
+  left:11.5%;
+  transform:rotate(90deg);
+}
+.puerta{
+  width:80px;
+  height:130px;
+  background-color:IndianRed ;
+  position:absolute;
+  bottom:0;
+  left:38%;
+}
+.pomo{
+   width:10px;
+  height:10px;
+  background-color:GoldenRod;
+  border-radius:50%;
+  position:absolute;
+  bottom:50px;
+  left:10%;
+}
+
+.chimenea{
+  width:30px;
+  height:70px;
+  background-color:red;
+  position:absolute;
+  bottom:530px;
+  left:50%;
+  transform:rotate(30deg)
+}
+
+
+#montana{
+  height:600px;
+  width:500px;
+  background-color: #B28E68;
+  clip-path: polygon(7% 99%, 18% 52%, 34% 61%, 55% 36%, 74% 62%, 87% 100%);
+  position: absolute;
+  left: 450px;
+  top: 20px;
+  z-index: 1;
+}
+
+#puerta{
+ width: 70px;
+ height: 100px;
+ background-color: #C3C3C3;
+ position: relative;
+ top: 150px;
+ left: 90px;
+
+}
+
+
+.nubes{
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  margin-left:80px;
+  margin-top: 50px;
+  border-radius: 50%;
+  position: relative;
+z-index: 1;
+}
+#conjunto{
+  width:10px;
+  height:10px;
+  position:relative;
+  animation: 6s nubes linear infinite;
+}
+
+
+
+@keyframes nubes {
+  0%{
+    left:0px;
+    top: 50px;
+  }
+  100%{
+    left:600px;
+    top: 50px;
+  }
+}
+
+#nube1{
+ position: relative;
+ top: 60px;
+ left: 50px;
+}
+
+#nube2{
+ position: relative;
+ top: -50px;
+ left: 5px;
+}
+
+#nube3{
+ position: relative;
+ top: -200px;
+ left: 90px;
+}
+
+#sol{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  left: 80;
+  top: 50px;
+  background-color: yellow;
+  animation: 6s sol linear infinite;
+
+}
+@keyframes sol {
+  0%{
+    left:0px;
+    top: 50px;
+  }
+  100%{
+    left:600px;
+    top: 50px;
+  }
+}

@@ -1,0 +1,255 @@
+body{
+    background-color: white;
+  }
+
+  #caricatura{
+      width: 400px;
+      height: auto;
+  }
+  .pelo {
+    width: 473px;
+    height: 197px;
+    background:#000000;
+    position: relative;
+    top: -33px;
+    left: -4px;
+    border-radius: 100% 0% 100% 0% / 37% 100% 0% 63%;
+}
+
+#cara {
+    background-color: #e9b89e;
+    width: 463px;
+    height: 600px;
+    border-radius: 50% 50% 48% 52% / 35% 35% 70% 70%;
+    position: absolute;
+    top: 175px;
+    left: 367px;
+    margin: 0 auto;
+}
+
+#ceja1 {
+    background-color: #000000;
+    width: 146px;
+    height: 15px;
+    position: relative;
+    left: 38px;
+    top: 25px;
+    transform: rotate(10deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+#ceja2 {
+    background-color: #000000;
+    width: 146px;
+    height: 15px;
+    position: relative;
+    left: 284px;
+    top: 10px;
+    transform: rotate(-10deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+  .ojos{
+    background-color: #F5DDC4;
+    width: 100px;
+    height: 110px;
+    margin: auto;
+    transform: rotate(50deg);
+    border-radius: 95% 0;
+    position: relative;
+    border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+  }
+
+  .ojos:before{
+    width: 60px;
+    height: 60px;
+    content:'';
+    display: block;
+    background-color: #5f4a28;
+    position: absolute;
+    top: 21px;
+    left: 22px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+  }
+
+  .ojos:after{
+    content: '';
+    display: block;
+    background: black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -40px;
+    left: -38px;
+    transform: translate(4.75em, 4.75em);
+    border-radius: 50%;
+  }
+
+  #ojo1 {
+    position: relative;
+    width: 102px;
+    top: 18px;
+    left: 110px;
+}
+
+#ojo2 {
+    left: -110px;
+    top: -100px;
+    width: 102px;
+}
+
+
+
+#nariz {
+    width: 98px;
+    height: 120px;
+    background-color: #FFDAB9;
+    position: absolute;
+    top: 283px;
+    left: 180px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-radius: 30%;
+}
+
+.labios {
+    background-color: #cd8b71;
+    position: absolute;
+}
+
+#labios1 {
+    width: 152px;
+    height: 169px;
+    clip-path: polygon(36% 21%, 53% 29%, 70% 21%, 98% 39%, 0% 38%);
+    top: 421px;
+    left: 153px;
+    border-radius: 40%;
+}
+
+  #labios2 {
+    width: 150px;
+    height: 142px;
+    clip-path: polygon(35% 18%, 48% 11%, 66% 21%, 98% 39%, 0% 38%);
+    top: 400px;
+    left: 153px;
+    transform: rotate(180deg);
+}
+
+#oreja1 {
+    width: 42px;
+    height: 131px;
+    background-color: #e9b89e;
+    position: relative;
+    top: -175px;
+    border-radius: 31%;
+    transform: rotate(-10deg);
+}
+
+#oreja2 {
+    width: 42px;
+    height: 131px;
+    background-color: #e9b89e;
+    position: relative;
+    top: -307px;
+    left: 422px;
+    border-radius: 31%;
+    transform: rotate(10deg);
+}
+
+.cuerpo {
+    position: relative;
+    top: 153px;
+    left: 338px;
+}
+
+  .camiseta{
+    background-color: #33A1FF;
+  }
+
+  #camiseta1{
+    width: 570px;
+    height: 550px;
+    position: absolute;
+    top: 650px;
+    left: -30px;
+    border-radius: 15% 15% 0% 0%;
+  }
+
+  #camiseta2{
+    width: 40px;
+    height: 150px;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #33A1FF;
+    position: absolute;
+    top: 650px;
+    left: 410px;
+    clip-path: polygon(20% 0%, 59% 0, 100% 100%, 0% 100%);
+  }
+
+  #camiseta3 {
+    width: 40px;
+    height: 150px;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #33A1FF;
+    position: absolute;
+    top: 650px;
+    left: -140px;
+    clip-path: polygon(20% 0%, 59% 0, 100% 100%, 0% 100%);
+    transform: scaleX(-1);
+}
+
+  .cuello{
+    background-color: #e9b89e;
+  }
+
+  #cuello1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 530px;
+    left: 185px;
+  }
+
+  #cuello2{
+    width: 220px;
+    height: 128px;
+    position: absolute;
+    top: 650px;
+    left: 148px;
+    border: 2px solid #e9b89e;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .brazos{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 1000px;
+  }
+
+  #brazo1{
+  position: absolute;
+    left: -110px;
+      background-color: #e9b89e;
+  }
+
+  #brazo2{
+    position: absolute;
+    left: 470px;
+      background-color: #e9b89e;
+  }
